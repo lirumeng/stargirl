@@ -25,11 +25,11 @@ starObj.prototype.update = function(){
     this.x += this.vx * deltaTime * 0.004;    
     this.y += this.vy * deltaTime * 0.004;
     
-    if(this.x< 100 || this.x > 900){
+    if(this.x< 100 || this.x > 893){
         this.init();
         return;
     }
-    if(this.y< 100 || this.y > 500){
+    if(this.y< 100 || this.y > 493){
         this.init();
         return;
     }
